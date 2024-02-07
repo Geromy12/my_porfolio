@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8"/>
+       <meta http-equiv="X-UA Compatible" content="IE=edge"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <link rel="stylesheet" href="style.css"/>
+       <link rel="stylesheet" href="mediaqueries.css"/>
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+       integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+       crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <title>Portfolio</title>
+    </head>
+    
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo" style="color: rgb(195, 121, 159)">Portfo<span style="color: rgb(67, 62, 65);">lio</span></div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#desktop-nav">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo" style="color: rgb(195, 121, 159)">Portfo<span style="color: rgb(67, 62, 65);">lio</span></div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                        <li><a href="#" onclick="toggleMenu()">Home</a></li>
+                        <li><a href="#" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#" onclick="toggleMenu()">Skills</a></li>
+                        <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="content">
+                <h1 class="contain">Welcome!</h1>
+                <!--
+                    <h1><span id="typewriter"><span id="cursor">l</span></span></h1>
+                -->
+                <a href="#about">Explore <span>&#x27F6;</span></a>
+            </div>
+        </section>  
+        <section id="about">
+            <h1 class="title">About Me</h1>
+            <h5 class="title1">IT&nbsp;<span style="color: rgb(195, 121, 159);">explorer</span></h5>
+            <p class="paragraph">
+                Hello, my name is Geromy B. Royo<br>
+                currently a second year college at Pangasinan State University<br>
+                taking a degree as an IT student. I took this course because it<br> 
+                was amusing for me and it's mind blowing.</p>   
+            <div class="section-container">
+                <div class="pic-container">
+                    <img src="self2.png" alt="profile picture" class="about-pic">
+                    <img src="background.png" alt="background" class="back-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="name">
+                <h5>Social Media</h5>
+            </div>
+            <div class="social-media">
+                <ul>
+                    <li><a href="#" class="fa"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#" class="fa"><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li><a href="#" class="fa"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#" class="fa"><i class="fa-solid fa-code"></i></a></li>
+                </ul>
+            </div>
+        </section>   
+        <!--Script-->
+        <script src="script.js"></script>
+    </body>
+</html>
